@@ -292,7 +292,7 @@ nav {
   content: "";
   position: absolute;
   top: -50px;
-  right: 50px;
+  right: 20px;
   width: 100px;
   height: 130%;
   background-color: #2c4755;
