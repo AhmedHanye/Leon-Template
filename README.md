@@ -3,7 +3,7 @@
 ![Leon Template](https://ahmedhanye.github.io/Leon-Template-Elzero/images/logo.png)
 
 Welcome to the Leon Template project repository! This is a creative and minimal agency website template designed for various purposes.
-- Website Link: https://ahmedhanye.github.io/Leon-Template-Elzero/
+- Website Link: [https://ahmedhanye.github.io/Leon-Template-Elzero/](https://ahmedhanye.github.io/Leon-Template/)
 
 ## Table of Contents
 
