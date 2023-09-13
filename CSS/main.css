@@ -1,7 +1,7 @@
 /* ----variables---- */
 :root {
   --main-color: #10cab7;
-  --section-background: #f6f6f6;
+  --section-background: #dddddd81;
   --blue-green :#587283;
 }
 
@@ -432,7 +432,7 @@ nav {
 }
 #contact > #contact-container > a {
   text-decoration: none;
-  color: var(--main-color);
+  color: #019384;
   font-weight: 800;
 }
 #contact > #contact-container > p {
