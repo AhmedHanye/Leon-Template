@@ -2,6 +2,7 @@
 :root {
   --main-color: #10cab7;
   --section-background: #f6f6f6;
+  --blue-green :#587283;
 }
 
 /* ----Global Rules---- */
@@ -63,7 +64,7 @@ html {
   text-align: center;
   font-size: 100px;
   padding-top: 80px;
-  color: #586573b0;
+  color: #586573b8;
   position: relative;
 }
 .title:after {
@@ -110,7 +111,7 @@ nav {
   justify-content: flex-end;
   flex-wrap: wrap;
   cursor: pointer;
-  transform: translateX(3px);
+  transform: translateX(4px);
 }
 #menu #icon span {
   height: 2px;
@@ -127,8 +128,8 @@ nav {
 /* -menu list- */
 #menu > #menu-list {
   position: absolute;
-  right: 0;
-  top: 40px;
+  right: -1px;
+  top: 35px;
   width: 42vw;
   min-width: 500px;
   background-color: #2c4755;
@@ -204,7 +205,7 @@ nav {
   width: 0;
 }
 #menu > #menu-toggle:checked ~ #icon span:nth-child(3) {
-  transform: rotate(-45deg) translate(3px, -5px);
+  transform: rotate(-45deg) translate(2px, -5px);
 }
 #menu > #menu-toggle:checked ~ #icon span:not(:nth-child(2)) {
   background-color: rgb(180, 2, 2);
@@ -264,7 +265,7 @@ nav {
   font-size: 16px;
   text-align: center;
   line-height: 25px;
-  color: #587283;
+  color: var(--blue-green);
 }
 
 /* ----services---- */
@@ -298,7 +299,8 @@ nav {
   font-size: 15px;
   text-align: left;
   line-height: 25px;
-  color: #637988;
+  color: var(--blue-green);
+  margin-top: 8px;
 }
 #services > #services-container > .services-card > #services-img {
   position: relative;
@@ -397,7 +399,7 @@ nav {
   font-weight: 700;
 }
 #about > #about-container > #about-content > p:last-child {
-  color: #777;
+  color: var(--blue-green);
 }
 #about > #about-container > #about-content > span {
   width: 50%;
