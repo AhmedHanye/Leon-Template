@@ -359,10 +359,6 @@ nav {
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 }
 #about > #about-container > #about-img {
-  width: 300px;
-  height: 340px;
-  background-image: url("../images/about.jpg");
-  background-size: cover;
   position: relative;
 }
 #about > #about-container > #about-img::before {
@@ -378,10 +374,10 @@ nav {
 #about > #about-container > #about-img::after {
   content: "";
   position: absolute;
-  width: 35%;
-  height: 80%;
+  width: 105px;
+  height: 272px;
   top: -50px;
-  right: -140px;
+  transform: translateX(-45px);
   border-left: 80px solid var(--main-color);
   border-bottom: 75px solid var(--main-color);
   z-index: -1;
@@ -500,19 +496,21 @@ footer > span {
     width: 100%;
     height: auto;
   }
-  #about > #about-container > #about-img {
+  #about > #about-container > #about-img > img {
     width: 180px;
     height: 220px;
   }
   #about > #about-container > #about-img::before {
-    left: -20px;
+    transform: translateX(8px);
     top: -30px;
-    width: 80px;
-    height: 100%;
+    width:80px;
+    height:220px;
   }
   #about > #about-container > #about-img::after {
+    width: 63px;
+    height: 176px;
     top: -30px;
-    right: -80px;
+    transform: translateX(-22px);
     border-left: 40px solid var(--main-color);
     border-bottom: 40px solid var(--main-color);
   }
