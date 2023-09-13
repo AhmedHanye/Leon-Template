@@ -2,7 +2,7 @@
 :root {
   --main-color: #10cab7;
   --section-background: #f6f6f6;
-  --blue-green :#587283;
+  --blue-green: #587283;
 }
 
 /* ----Global Rules---- */
@@ -40,21 +40,21 @@ html {
 @font-face {
   font-family: "Work Sans";
   src: url("../Work_Sans/WorkSans-VariableFont_wght.ttf") format("truetype");
-  font-weight: 400; 
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Work Sans";
   src: url("../Work_Sans/WorkSans-VariableFont_wght.ttf") format("truetype");
-  font-weight: 700; 
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Work Sans";
   src: url("../Work_Sans/WorkSans-VariableFont_wght.ttf") format("truetype");
-  font-weight: 800; 
+  font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
@@ -482,17 +482,17 @@ footer > span {
     flex-wrap: wrap;
     gap: 40px;
   }
-  #portfolio > #portfolio-container{
+  #portfolio > #portfolio-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 50px;
   }
-  #portfolio > #portfolio-container > .portfolio-card{
+  #portfolio > #portfolio-container > .portfolio-card {
     width: 80vw;
   }
-  #portfolio > #portfolio-container > .portfolio-card > picture > img{
+  #portfolio > #portfolio-container > .portfolio-card > picture > img {
     width: 100%;
     height: auto;
   }
@@ -503,8 +503,8 @@ footer > span {
   #about > #about-container > #about-img::before {
     transform: translateX(8px);
     top: -30px;
-    width:80px;
-    height:220px;
+    width: 146.663;
+    height: 220px;
   }
   #about > #about-container > #about-img::after {
     width: 63px;
