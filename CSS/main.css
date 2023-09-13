@@ -323,12 +323,14 @@ nav {
   content: "If you do it right, it will last forever.";
 }
 #portfolio > #portfolio-container {
-  padding: 10vh 10vw;
+  padding: 10vh 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 40px;
+  grid-template-columns: repeat(auto-fill, 380px);
+  justify-content: center;
+  gap: 50px;
 }
 #portfolio > #portfolio-container > .portfolio-card {
+  width: 379.725px;
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgba(184, 184, 184, 0.2);
@@ -341,12 +343,11 @@ nav {
 #portfolio > #portfolio-container > .portfolio-card h1,
 #portfolio > #portfolio-container > .portfolio-card p {
   text-align: left;
-  padding: 20px;
+  padding: 14px;
 }
 #portfolio > #portfolio-container > .portfolio-card h1 {
   font-weight: 800;
-  font-size: 18px;
-  text-align: left;
+  font-size: 20px;
 }
 /* ----about---- */
 #about > h1:after {
@@ -484,6 +485,20 @@ footer > span {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+  }
+  #portfolio > #portfolio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  #portfolio > #portfolio-container > .portfolio-card{
+    width: 80vw;
+  }
+  #portfolio > #portfolio-container > .portfolio-card > picture > img{
+    width: 100%;
+    height: auto;
   }
   #about > #about-container > #about-img {
     width: 180px;
