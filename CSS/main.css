@@ -497,13 +497,13 @@ footer > span {
     height: auto;
   }
   #about > #about-container > #about-img > img {
-    width: 180px;
+    width: auto;
     height: 220px;
   }
   #about > #about-container > #about-img::before {
     transform: translateX(8px);
     top: -30px;
-    width: 146.663;
+    width: 80px;
     height: 220px;
   }
   #about > #about-container > #about-img::after {
